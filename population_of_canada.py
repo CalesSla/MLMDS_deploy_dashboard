@@ -5,7 +5,7 @@ import matplotlib.dates as mdates
 
 @st.cache_data
 def read_data():
-    df = pd.read_csv("quarterly_canada_population.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/CalesSla/Streamlit-Deployment/master/data/quarterly_canada_population.csv")
     return df
 
 @st.cache_data
